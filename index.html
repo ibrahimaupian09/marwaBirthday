@@ -158,9 +158,6 @@ document.body.appendChild(h);
 <div class="card">
 <h2>🎂 Make a Wish & Blow the Candle</h2>
 <div class="cake">
-<div class="layer"></div>
-<div class="layer"></div>
-<div class="layer"></div>
 <div class="candle">
 <div class="flame" id="flame"></div>
 </div>
@@ -211,7 +208,7 @@ document.body.appendChild(h);
 <p class="story">
 May you always stay happy, confident, and kind.<br>
 May your dreams come true like fairy tales.<br>
-And may your life be full of love, magic, and cake 🎂
+And may your life be full of love, magic, and happiness 🎂
 </p>
 </div>
 
@@ -266,8 +263,9 @@ document.body.onclick=explodeConfetti;
 function blowCandle(){
 document.getElementById("flame").style.display="none";
 explodeConfetti();
-alert("Make a wish! 🎉");
+document.getElementById("wishText").style.display="block";
 }
+
 </script>
 
 </body>
